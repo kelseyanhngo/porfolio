@@ -1,6 +1,7 @@
 import "./App.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+// import pic1 from './assets'
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,7 @@ function App() {
         </div>
 
         <div className="part-one__right">
-          <p>this issss</p>
+          <img src='https://scontent.fxds1-1.fna.fbcdn.net/v/t39.30808-6/273910478_3081195262138512_3505003582593331216_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=bkfs-bUNdh0AX-TpvrP&_nc_ht=scontent.fxds1-1.fna&oh=00_AT_3PEAeWHWAGyl0Q13aZbQlT5EOzg5brm07umJSbqgMjQ&oe=62130C9F' alt=""/>
         </div>
       </div>
 
@@ -64,7 +65,11 @@ function App() {
           </p>
           <button
            data-aos="fade-right"
-          >Visit Website</button>
+       >
+          
+          <a href="https://air-bn-b-clone-gray.vercel.app/">Visit Website</a>
+          
+          </button>
         </div>
         <div className="part-three__right"></div>
       </div>
@@ -93,7 +98,7 @@ function App() {
               </a>
               <p>
                 <a href="whatsapp://send?text=Hello World!&phone=+9198996851">
-                  +316 585 985
+                +1 (343) 558 441
                 </a>
               </p>
             </div>
@@ -103,7 +108,7 @@ function App() {
               <h4>Whatsapp number</h4>
               <p>
                 <a href="whatsapp://send?text=Hello World!&phone=+9198996851">
-                  +316 585 985
+                  +1 (343) 558 441
                 </a>
               </p>
               <div className="abc">
