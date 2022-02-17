@@ -8,7 +8,7 @@ function App() {
       {/* Header part */}
       <div className="header-container">
         <div className="header-title">
-          <h4>Anh Thu Ngo - Web Developer</h4>
+          <h4>Anh Thu Ngo - Front-End Developer Internship</h4>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ function App() {
           <p
            data-aos="fade-right"
           >
-            This is a clone website that user can book a room, sign in, sign up.
+            This is a clone website that I covered from AirBnb website.
           </p>
           <button
            data-aos="fade-right"
