@@ -1,7 +1,7 @@
 import "./App.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import pic1 from './assets'
+import Slideshow from './Components/SliderTCH/index';
 function App() {
   return (
     <div className="App">
@@ -32,7 +32,10 @@ function App() {
 
       {/* Part two: THE COFFEE HOUSE */}
       <div className="part-two">
-        <div className="part-two__left"></div>
+        <div className="part-two__left">
+        <Slideshow/>
+
+        </div>
         <div className="part-two__right">
           <h3
           data-aos="fade-left"
