@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { SliderData } from "./sliderData";
 import "./styles.scss";
-// const colors = ["#0088FE", "#00C49F", "#FFBB28"];
 const delay = 3000;
 
 function Slideshow() {

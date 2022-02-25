@@ -1,0 +1,73 @@
+/* mobile: width < 740px */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+      background-color: aliceblue;
+  }
+    .part-one__left {
+    width: 100%;
+  }
+  .part-one__right {
+    display: none;
+  }
+  .part-two {
+    &__left {
+      display: none;
+    }
+    &__right {
+      width: 100%;
+    }
+  }
+  .part-three {
+    &__left {
+      width: 100%;
+    }
+    &__right {
+      display: none;
+    }
+  }
+
+  .contacts {
+    width: 100%;
+    // display: none;
+    &__title {
+       p {
+        // margin: 10px 10px 20px 20px;
+        // margin-right: 20px;
+       } 
+    }
+    .contacts__button{
+        display: none;
+
+    }
+  }
+  .contacts__info{
+     
+      .contacts__info--right{
+          display: none;
+      }
+  }
+  .contacts__info--left_content {
+    margin-top: 20px;
+    text-align: center;
+    border-right: none;
+
+
+}
+.contacts__info--right_mobile{
+    margin-top: 40px;
+    text-align: center;
+    a {
+        color: black;
+    }
+}
+}
+
+/* tablet: 740 <= width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+/* PC: width >= 1024 */
+@media screen and (min-width: 64em) {
+    .contacts__info--right_mobile{
+        display: none;
+    }
+}

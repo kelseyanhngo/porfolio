@@ -31,5 +31,7 @@ code {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  background: #ffffff; 
+  width: 5px;
+
 }

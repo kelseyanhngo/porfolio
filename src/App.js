@@ -1,4 +1,5 @@
 import "./App.scss";
+import './Responsive.scss'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Slideshow from './Components/SliderTCH/index';
@@ -124,7 +125,30 @@ function App() {
               <a href="https://github.com/kelseyanhngo">kelseyanhngo</a>
             </div>
           </div>
+
+         
         </div>
+
+          {/* responsive for mobile */}
+
+        <div className="contacts__info--right_mobile">
+          <div className="contacts__info--right_mobile_content">
+              <h4>Whatsapp number</h4>
+              <p>
+                <a href="whatsapp://send?text=Hello World!&phone=+9198996851">
+                  +1 (343) 558 441
+                </a>
+              </p>
+              <div className="abc">
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/anh-thu-ngo-b15948211/">
+                  Anh Thu Ngo
+                </a>
+              </div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/kelseyanhngo">kelseyanhngo</a>
+            </div>
+          </div>
       </div>
     </div>
   );
