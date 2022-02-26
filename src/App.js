@@ -95,7 +95,7 @@ function App() {
             <div className="contacts__info--left_content">
               <h4>Anh Thu Ngo</h4>
               {/* <h3>02 Summerwind Crescent</h3> */}
-              <h5>Nepean, ON K2G 6G6</h5>
+              <h5>Ottawa, ON K2G 6G6</h5>
               <h5>Canada</h5>
               <a href={"mailto:ngo00074@algonquinlive.com"}>
                 ngo00074@algonquinlive.com
