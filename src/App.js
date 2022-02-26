@@ -37,6 +37,7 @@ function App() {
         <Slideshow/>
 
         </div>
+
         <div className="part-two__right">
           <h3
           data-aos="fade-left"
@@ -53,6 +54,11 @@ function App() {
           <a href="https://the-coffee-huse-clone.vercel.app/">Visit Website</a>
           
           </button>
+        </div>
+
+        <div className="part-two__left_tablet">
+        <Slideshow/>
+
         </div>
       </div>
 
@@ -75,7 +81,12 @@ function App() {
           
           </button>
         </div>
-        <div className="part-three__right"></div>
+        <div className="part-three__right">
+
+        </div>
+        <div className="part-three__right_tablet">
+          <Slideshow/>
+          </div>
       </div>
       {/* Part Contact */}
       <div className="contacts">
